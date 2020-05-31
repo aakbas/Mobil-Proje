@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".checkpoint11">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="355dp"
+        android:layout_height="270dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="74dp"
+        android:text="Konferans sonrasında arkadaşın North ile birşeyler içmeye yakınlardaki bir puba geldiniz.Aranızda Hank'in süperbilgisayarının projenizin hayata geçmesi için tek fırsat olduğu konusunda hararetli bir konuşma geçiyor...Bu sırada bara giren tanıdık bir yüz dikkatinizi çekti...Bara giren kişi Kara(Hankin baş asistanı).Yarın Hank'in şirketine gidip projeni tanıtacaksın Kara sana yardımcı olabilir.North onunla konuşman gerektiğini düşünüyor!"
+        app:layout_constraintBottom_toTopOf="@+id/btnCheckpoint12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCheckpoint12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="50dp"
+        android:onClick="Checkpoint12"
+        android:text="Kara ile konuş"
+        app:layout_constraintBottom_toTopOf="@+id/btnCheckpoint13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <Button
+        android:id="@+id/btnCheckpoint13"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="158dp"
+        android:onClick="Checkpoint13"
+        android:text="Masada Kal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCheckpoint12" />
+</androidx.constraintlayout.widget.ConstraintLayout>

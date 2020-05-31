@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".checkpoint9">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="357dp"
+        android:layout_height="365dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="46dp"
+        android:text="Tebrikler konferans başlamadan yetiştin!Konferans salonuna kısa bir göz gezdirdin...Etraf henüz fazla kalabalık değil fakat salon girişindeki deske doğru baktığında Bay Hank'in baş Asistanı Karayı Gördün.Bu fırsatı değerlendirmelisin nasıl yaklaşmayı düşünüyorsun?"
+        app:layout_constraintBottom_toTopOf="@+id/btnCheckpoint9-1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCheckpoint9-1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="36dp"
+        android:onClick="Checkpoint9A"
+        android:text="Özgüvenli"
+        app:layout_constraintBottom_toTopOf="@+id/btnCheckpoint9-2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/btnCheckpoint9-2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="144dp"
+        android:onClick="Checkpoint9B"
+        android:text="Çekimser"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCheckpoint9-1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

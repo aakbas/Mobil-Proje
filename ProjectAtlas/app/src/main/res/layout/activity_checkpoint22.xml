@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".checkpoint22">
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="323dp"
+        android:layout_height="262dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginBottom="60dp"
+        android:text="Hank'helikoptere varmadan ona yetişmeyi başardın !Sana neden burda olduğunu soruyor yetişmesi gereken bir uçak var tek şansın var bunu iyi kullanve ona projeni anlat!"
+        app:layout_constraintBottom_toTopOf="@+id/btnHankRelation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnHankRelation"
+        android:layout_width="302dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="29dp"
+        android:onClick="HankRelation"
+        android:text="Ayakkabısız Çocuk"
+        app:layout_constraintBottom_toTopOf="@+id/btnKaraRelation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="121dp"
+        android:onClick="defaultChoice"
+        android:text="Önemli Proje"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnKaraRelation"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btnKaraRelation"
+        app:layout_constraintTop_toBottomOf="@+id/btnKaraRelation" />
+
+    <Button
+        android:id="@+id/btnKaraRelation"
+        android:layout_width="298dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="25dp"
+        android:onClick="KaraRelation"
+        android:text="Sorumluluk Sahibi"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnHankRelation" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

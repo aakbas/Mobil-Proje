@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".checkpoint18">
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="325dp"
+        android:layout_height="310dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="155dp"
+        android:text="Deske yaklaşıyorsun kalbin heyecandan patlamak üzere görevliye bir yalan uydurdun şuan bir telefon görüşmesi yapıyor..."
+        app:layout_constraintBottom_toTopOf="@+id/btnCheckpoint20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCheckpoint20"
+        android:layout_width="231dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="44dp"
+        android:onClick="btnLie"
+        android:text="Panik"
+        app:layout_constraintBottom_toTopOf="@+id/btnCheckpoint20a"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <Button
+        android:id="@+id/btnCheckpoint20a"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="72dp"
+        android:onClick="btnRelation"
+        android:text="Sakin Kal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnCheckpoint20"
+        app:layout_constraintStart_toStartOf="@+id/btnCheckpoint20"
+        app:layout_constraintTop_toBottomOf="@+id/btnCheckpoint20" />
+</androidx.constraintlayout.widget.ConstraintLayout>

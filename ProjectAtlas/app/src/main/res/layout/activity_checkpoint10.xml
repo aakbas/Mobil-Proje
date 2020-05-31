@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".checkpoint10">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="26dp"
+        android:text="Konferansa yetişmeyi başaramadın...Sessizce koltuğuna doğru geçmeye çalışırken bir anda tüm gözlerin sana döndüğünü farkediyorsun.Hank bir anda sana seslenip geç kalmanla ilgili şakalar yapıyor ..."
+        app:layout_constraintBottom_toTopOf="@+id/txtShoeEvent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtShoeEvent"
+        android:layout_width="361dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="86dp"
+        android:text="Hank--Genç arkadaşımız birdahaki sefere ayakkabılarıyla gelmeyi hatırlayabilir umarım ...---(Hazırlıklarını yaparken ayakkabılarını almayı unuttun :) Bu durum Hankin baya hoşuna gitmiş gibi duruyor )"
+        app:layout_constraintBottom_toTopOf="@+id/btnCheckpoint11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <Button
+        android:id="@+id/btnCheckpoint11"
+        android:layout_width="339dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="128dp"
+        android:onClick="Checkpoint11"
+        android:text="İlerle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtShoeEvent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

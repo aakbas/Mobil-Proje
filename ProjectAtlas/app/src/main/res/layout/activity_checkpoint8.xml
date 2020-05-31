@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".checkpoint8">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="338dp"
+        android:layout_height="287dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="84dp"
+        android:text="Otobüs Yolculuğu ... Şu anda bulunduğun duraktaki otobüs hattı yoğun bir yoldan geçiyor trafiğe takılabilirsin...Yada diğer durağa koşup daha sakin bir otobüs yakalamayı deneyebilirsin seçim senin !"
+        app:layout_constraintBottom_toTopOf="@+id/BusOptFast"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/BusOptFast"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="62dp"
+        android:onClick="BusOptFast"
+        android:text="Diğer Durağa Koş"
+        app:layout_constraintBottom_toTopOf="@+id/BusOptSlow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <Button
+        android:id="@+id/BusOptSlow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="153dp"
+        android:onClick="BusOptSlow"
+        android:text="Yeni Araç Bekle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BusOptFast" />
+</androidx.constraintlayout.widget.ConstraintLayout>

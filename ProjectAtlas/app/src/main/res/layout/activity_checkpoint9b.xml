@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".checkpoint9b">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="344dp"
+        android:layout_height="329dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginBottom="96dp"
+        android:text="Çekimser yaklaşımınla Karanın dikkatini çekmekte biraz zorlanmış gibi duruyorsun.Ama bu durum çok sorun olmamış gibi gözüküyor.Bu güzel sohbetin sonunda Kara seni sevmiş gibi görünüyor bu fırsat projeni Hank'e tanıtmanda işine yarıyabilir!"
+        app:layout_constraintBottom_toTopOf="@+id/btnCheckpoint9b"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCheckpoint9b"
+        android:layout_width="218dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="197dp"
+        android:onClick="Checkpoint11"
+        android:text="İlerle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+</androidx.constraintlayout.widget.ConstraintLayout>

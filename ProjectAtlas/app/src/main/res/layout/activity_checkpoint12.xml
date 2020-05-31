@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".checkpoint12">
+
+    <Button
+        android:id="@+id/btnCheckpoint15"
+        android:layout_width="274dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="52dp"
+        android:onClick="Checkpoint15"
+        android:text="Doğrudan Söyle"
+        app:layout_constraintBottom_toTopOf="@+id/btnCheckpoint16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCheckpoint14" />
+
+    <Button
+        android:id="@+id/btnCheckpoint14"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="54dp"
+        android:onClick="Checkpoint14"
+        android:text="Kendini tanıt"
+        app:layout_constraintBottom_toTopOf="@+id/btnCheckpoint15"
+        app:layout_constraintEnd_toEndOf="@+id/btnCheckpoint16"
+        app:layout_constraintStart_toStartOf="@+id/btnCheckpoint15"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <Button
+        android:id="@+id/btnCheckpoint16"
+        android:layout_width="276dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginBottom="83dp"
+        android:onClick="Checkpoint16"
+        android:text="Yardım İste"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCheckpoint15" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="327dp"
+        android:layout_height="320dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="72dp"
+        android:text="Barda vakit geçirirken içeri tanıdık bir yüzgiriyor ...Evet bu Kara(Hank'in baş asistanı)North onunla konuşmanın bize yardımedebileceğini düşünüyor."
+        app:layout_constraintBottom_toTopOf="@+id/btnCheckpoint14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

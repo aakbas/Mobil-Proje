@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".checkpoint4">
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="-223dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="181dp"
+            android:text="Tam Hazırlıklarına Başlayacakken gözün saate takılır...Saat XX:XX !!!Konferansa 30 dakika var Bir an önce hazırlanmalısın !(Geç kalmak kötü bir izlenim bırakabilir...) Alman gereken eşyaları seç." />
+
+        <TextView
+            android:id="@+id/counttime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btncheckpoint4-1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="RigthChoice"
+            android:text="Çanta-Ceket-Bilgisayar-Ayakkabı" />
+
+        <Button
+            android:id="@+id/btnCheckpoint4-2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="EventChoice"
+            android:text="Ceket-Çanta-Bilgisayar" />
+
+        <Button
+            android:id="@+id/btnCheckpoint4-3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="RigthChoice"
+            android:text="Ceket-Bilgisayar-Çanta-Ayakkabı" />
+
+        <Button
+            android:id="@+id/btnCheckpoint4-4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="RigthChoice"
+            android:text="Ayakkabı-Bilgisayar-Ceket-Çanta" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".checkpoint9a">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="324dp"
+        android:layout_height="312dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="85dp"
+        android:text="Biraz özgüven herşeyin çözümü olabilir .kendine olan güvenin kara üzerinde gerçekten iyi bir izlenim bıraktı .Kendini ona farkettirmeyi başardın .Bu projeni hanke tanıtmak için gerçekten iyi bir fırsat olabilir!"
+        app:layout_constraintBottom_toTopOf="@+id/btncheckpoint11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btncheckpoint11"
+        android:layout_width="238dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="201dp"
+        android:onClick="Checkpoint11"
+        android:text="İlerle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".checkpoint6">
+
+    <Button
+        android:id="@+id/btnCheckpoint7"
+        android:layout_width="244dp"
+        android:layout_height="87dp"
+        android:layout_marginBottom="67dp"
+        android:onClick="Checkpoint7"
+        android:text="Bisiklet Yolculuğu (Yüksek Şans)"
+        app:layout_constraintBottom_toTopOf="@+id/btnCheckpoint8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/btnCheckpoint8"
+        android:layout_width="251dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="169dp"
+        android:onClick="Checkpoint8"
+        android:text="Otobüs Yolculuğu(Düşük Şans)"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCheckpoint7" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="349dp"
+        android:layout_height="289dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="44dp"
+        android:text="Konferansa Ulaşmak için bir yol seçmelisin!Umarım fazladan vaktin vardır bisiklet konferansa varmak için en güvenli yol!Otobüs yolculuğu biraz zorlayıcı olabilir seçimini iyi yap ..."
+        app:layout_constraintBottom_toTopOf="@+id/btnCheckpoint7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
